@@ -1,5 +1,13 @@
 # bookworm
-# Google Books Search
+BookWorm is a full stack app that allows users search the Google Book database and save selected books.
+
+Technologies used include:
+- MongDB
+- React
+- Google Books API
+- React 
+- Express
+
 
 ### Overview
 
