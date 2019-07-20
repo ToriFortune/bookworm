@@ -8,7 +8,7 @@ Technologies used include:
 - React 
 - Express
 
-
+<!-- 
 ### Overview
 
 In this activity, you'll create a new React-based Google Books Search app. This assignment requires you to create React components, work with helper/util functions, and utilize React lifecycle methods to query and display books based on user searches. You'll also use Node, Express and MongoDB so that users can save books to review or purchase later.
@@ -139,4 +139,4 @@ Please see [Heroku’s Account Verification Information](https://devcenter.herok
 
 If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
 
-**Good Luck!**
+**Good Luck!** -->
