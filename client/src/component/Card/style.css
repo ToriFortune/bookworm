@@ -1,0 +1,89 @@
+.book-cell {
+    margin: 20px;
+  }
+  
+  .book-details {
+    background-color: #C4F3FF;
+    border-radius: 10px;
+  }
+  
+  .book-text {
+    padding: .5rem;
+    margin-left: .5rem;
+  }
+  
+  .book-text p,
+  a {
+    font-size: 1.2rem;
+  }
+  
+  a:hover {
+    font-weight: bold;
+  }
+  
+  .book-label {
+    font-weight: bold;
+  }
+  
+  .thumbnail {
+    height: 100%; 
+    width: auto;
+    margin: 0 1rem;
+  }
+  
+  /* Button only */
+  .button-action {
+    font-weight: bold;
+    margin-top: .5rem;
+    border: 0;
+    padding: .75rem;
+    position: relative;
+    left: 0;
+    top: .8rem;
+    overflow: hidden;
+    font-size: .9rem;
+    letter-spacing: 1px;
+    transition: all 0.35s ease;
+    text-transform: uppercase;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    }
+    
+    .button-action:before {
+      opacity: 0;
+      content: "";
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      border-radius: inherit;
+      background-color: #fefefe;
+      transition: all 0.3s;
+      -webkit-transform: translateX(-100%);
+          -ms-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+    
+    .button-action:after {
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      content: '';
+      border-radius: inherit;
+    }
+    
+    .button-action:hover,
+    .button-action:focus {
+      background-color: #66A3B3;
+    }
+    
+    .button-action:hover:before,
+    .button-action:focus:before {
+      -webkit-transform: translateX(0%);
+          -ms-transform: translateX(0%);
+              transform: translateX(0%);
+      opacity: 0.25;
+    }
