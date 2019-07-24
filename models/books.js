@@ -14,15 +14,13 @@ const bookSchema = new Schema({
     required: true
   },
 
-  image:
-  {
-    description: String,
-    required: false
-
-  },
-
-
-
+  
+  image: String,
+  description: String,
+  link: {
+      type: String,
+      required: true
+  }
 });
 
 // const BookSchema = new Schema({
@@ -35,5 +33,5 @@ const bookSchema = new Schema({
 
 // export new Schema
 
-const Book = mongoose.model("books", bookSchema);
+const Book = mongoose.model("Book", bookSchema);
 module.exports =Book

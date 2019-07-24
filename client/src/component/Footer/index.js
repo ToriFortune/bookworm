@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <footer>
             <a 
-            href="" 
+            href="https://www.google.com/intl/en/googlebooks/about/index.html" 
             target="_blank"
             rel="noopener noreferrer"
             className="google-books">
