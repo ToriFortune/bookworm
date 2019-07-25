@@ -3,11 +3,15 @@ import './style.css';
 
 export default function Search(props) {
     return (
-        <input 
-            type="search" 
-            name={props.name} 
-            onChange={props.onChange}
-            placeholder={props.placeholder} 
-            className="animated-search-form"/>
+        <div>
+            <h1> Open Sesame</h1>
+
+            <input
+                type="search"
+                name={props.name}
+                onChange={props.onChange}
+                placeholder={props.placeholder}
+                className="animated-search-form" />
+        </div>
     );
 }
